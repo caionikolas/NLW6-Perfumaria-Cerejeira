@@ -8,13 +8,21 @@
 
     <!-- ICONS -->
     <link rel="stylesheet" href="assets/fonts/style.css">
+     <!-- swiper -->
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css">
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet"
     >  
+
   </head>
   <body>
     <header id="header">
@@ -35,6 +43,8 @@
     </header>
 
     <main>
+
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -55,6 +65,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Vendedor atendendo uma cliente sorrindo"></div>
@@ -71,6 +82,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header><h2 class="title">Serviços</h2>
@@ -95,7 +107,95 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTEMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de sastifação de clientes</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ab sed possimus ipsa atque necessitatibus aut velit, nostrum voluptatem cumque iusto at.
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="">
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+  
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum debitis odio illum accusamus placeat veniam. Inventore vero quas numquam, corporis tempora perspiciatis qui nemo.
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/89.jpg" alt="">
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+  
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam magnam vitae minus excepturi ut, possimus dolore hic quos iste a facere rem cupiditate saepe praesentium!
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+                    Isa Ribeiro
+                  </cite>
+                </blockquote>
+              </div> 
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+
+
+
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>Entre em contato com a Perfumaria Cerejeira, queremos tirar suas duvidas, ouvir suas críticas e sugestões.</p>
+            <a href="https://api.whatsapp.com/send?phone=+551140028922&text=Olá, Boa tarde!" 
+            class="button" target="_blank"><i class="icon-logotipo-do-whatsapp"> Entrar em contato</i></a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-telefonema"></i> (11) 4002-8922</li>
+              <li><i class="icon-pino-de-localizacao"></i> Avenida Saturno, 113</li>
+              <li><i class="icon-mensagem"></i> contato@carejeira.com</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+
+
+      </section>
+
     </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="main.js"></script>
 
