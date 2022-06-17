@@ -473,6 +473,7 @@ nav.show .icon-x {
 #contact ul li i {
   color: var(--base-color);
 }
+<<<<<<< HEAD
 
 /*==== FOOTER ========================*/
 footer {
@@ -542,3 +543,5 @@ footer .social a:hover {
   }
 }
 /* medium devices: 767 > */
+=======
+>>>>>>> c59561ccc2b784f56c680c42b2384284e5550411
