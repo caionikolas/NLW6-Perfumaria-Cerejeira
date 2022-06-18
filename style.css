@@ -149,13 +149,8 @@ body {
   color: var(--body-color);
 }
 
-#header.scroll .icon-menu-aberto1,
-#header.scroll nav ul li a{
+#header.scroll .toggle.icon-menu-aberto1 {
   color: white;
-}
-
-#header.scroll nav ul li a::after {
-  background: white;
 }
 
 /*==== LOGO =======================================*/
@@ -562,6 +557,15 @@ footer .social a:hover {
 
   .section {
     padding: 10rem 0;
+  }
+
+  #header.scroll .icon-menu-aberto1,
+  #header.scroll nav ul li a{
+  color: white;
+  }
+
+  #header.scroll nav ul li a::after {
+  background: white;
   }
 
   .section header,
