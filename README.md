@@ -2,7 +2,7 @@
 ##
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
