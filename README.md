@@ -7,4 +7,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-Projeto de uma perfumaria ficticia utilizando tudo que aprendi durante a NLW6 Origin
+Projeto de uma perfumaria ficticia utilizando tudo que aprendi durante a NLW6 Origin.
