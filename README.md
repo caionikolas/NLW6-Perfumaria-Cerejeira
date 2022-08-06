@@ -1,10 +1,14 @@
-# NLW#6 Perfumaria Cerejeira
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### Start Here
 
-- HTML
-- CSS
-- JavaScript
+- Home Page
+- Buttons
+- Interface
+- fluidity
+- Update Style.css
+- Responsive Layout.
+- Active Menu
+- BugFixs
+- Final
+##
 
-## Projeto
 
-Projeto de uma perfumaria ficticia utilizando tudo que aprendi durante a NLW6 Origin.
