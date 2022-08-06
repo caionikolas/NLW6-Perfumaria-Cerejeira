@@ -1,4 +1,21 @@
-# NLW#6 Perfumaria Cerejeira
- Projeto desenvolvido durante a Next Level Week #06
- 
- ##
+### Start Here
+
+> - Home Page
+> - Buttons
+> - Interface
+> - fluidity
+> - Update Style.css
+> - Responsive Layout.
+> - Active Menu
+> - BugFixs
+> - Final
+
+##
+
+### Perfumaria Cerejeira
+
+<img src="#" >
+
+
+
+
